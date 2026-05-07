@@ -2498,7 +2498,7 @@ local freezeATab = Window:MakeTab({
     PremiumOnly = false
 })
 local killTab = Window:MakeTab({
-    Name = "리스킬",
+    Name = "루프킬",
     Icon = "rbxassetid://117381520745599",
     PremiumOnly = false
 })
@@ -2990,7 +2990,7 @@ GrabTab:AddToggle({
 GrabTab:AddSlider({
     Name = "던지는는힘",
     Min = 300,
-    Max = 999999999,
+    Max = 4000,
     ValueName = ".",
     Increment = 1,
     Default = 400,
